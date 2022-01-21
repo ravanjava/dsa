@@ -18,7 +18,7 @@ public class RemoveDuplicates {
         return nextNonDuplicate;
     }
 
-
+ // New commit
     private static void swap(int[] arr,int s,int e){
         int temp = arr[s];
         arr[s] = arr[e];
