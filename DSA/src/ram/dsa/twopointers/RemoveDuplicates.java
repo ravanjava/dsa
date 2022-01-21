@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RemoveDuplicates {
 
-
+    // dummy change
     public static int remove(int[] arr) {
         int nextNonDuplicate = 1; // index of the next non-duplicate element
         for (int i = 1; i < arr.length; i++) {
