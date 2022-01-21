@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RemoveDuplicates {
 
-
+    // dummy change
     public static int remove(int[] arr) {
         int nextNonDuplicate = 1; // index of the next non-duplicate element
         for (int i = 1; i < arr.length; i++) {
@@ -18,7 +18,7 @@ public class RemoveDuplicates {
         return nextNonDuplicate;
     }
 
-
+ // New commit
     private static void swap(int[] arr,int s,int e){
         int temp = arr[s];
         arr[s] = arr[e];
